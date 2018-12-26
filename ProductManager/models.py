@@ -19,7 +19,7 @@ class Category(models.Model):
         return self.slug
 
     def get_absolute_url(self):
-        return reverse('shop:product_list_by_category',
+        return reverse('ProductManager:product_list_by_category',
                        args=[self.slug])
 
 class Brand(models.Model):
@@ -47,7 +47,7 @@ class Product(models.Model):
     category = models.ForeignKey(Category, related_name='products', on_delete=models.CASCADE)
     brand = models.ForeignKey(Brand, related_name='products', on_delete=models.CASCADE)
     description = models.TextField(blank=True)
-    picture = models.ImageField(upload_to='img/product', null=True)
+    picture = models.ImageField(upload_to='media/products/cover', null=True)
     size = models.CharField(max_length=200, null=True)
     quantity = models.PositiveIntegerField(default=0)
     available = models.BooleanField(default=True)
@@ -60,5 +60,5 @@ class Product(models.Model):
 
 class Image(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    picture = models.ImageField(upload_to='img', null=True)
+    picture = models.ImageField(upload_to='media/products/img', null=True)
 
