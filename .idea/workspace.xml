@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20a8cffb-051d-4e7a-be2b-b184f2b78e02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/img/no_image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/416145d3-fa35-4fbf-a290-67e4f2bc88e1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/416145d3-fa35-4fbf-a290-67e4f2bc88e1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DaiGou/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DaiGou/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DaiGou/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DaiGou/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManager/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManager/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManager/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManager/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/products.html" afterDir="false" />
-    </list>
+    <list default="true" id="20a8cffb-051d-4e7a-be2b-b184f2b78e02" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,8 +133,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProductManager/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+            <state relative-caret-position="727">
+              <caret line="58" selection-start-line="58" selection-end-line="59" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
                 <marker date="1545396961917" expanded="true" signature="738:1248" ph="..." />
@@ -384,7 +374,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832216" visible="true" weight="0.18869936" />
       <window_info id="Structure" order="1" sideWeight="0.5016779" side_tool="true" weight="0.25" />
@@ -527,8 +516,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProductManager/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+        <state relative-caret-position="727">
+          <caret line="58" selection-start-line="58" selection-end-line="59" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
             <marker date="1545396961917" expanded="true" signature="738:1248" ph="..." />
