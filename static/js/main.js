@@ -145,3 +145,14 @@
   }
 
 })(jQuery);
+
+
+//new add
+
+// $("#search_product").on("click",function () {
+//   let selected_category = document.getElementById('selected_category').value;
+//   let input_value = document.getElementById('search_input').value;
+//   $.ajax({
+//
+//   })
+// })
